@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+/* .Image img{
+  
+  position: relative;
+  width: 400px;
+  height: 300px;
+  left: 800px;
+
+} */
+.signUp{
+  position: relative;
+  background-color: #61dafb;
+  width: 800px;
+  height: 500px;
+  font-family: 'Potta One', cursive;
+
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

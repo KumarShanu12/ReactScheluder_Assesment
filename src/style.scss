@@ -1,0 +1,134 @@
+// .enquiry {
+//   position: relative;
+//   top: 250px;
+//   left: 0px;
+//   width: 660px;
+//   text-align: center;
+//   border: 5px solid black;
+
+//   height: 300px;
+//   font-family:cursive;
+//   h1 {
+//     color: red;
+//     font-family: cursive;
+//   }
+//   h3 {
+//     word-spacing: 10px;
+//   }
+// }
+
+// .enquiry1 {
+//   position: relative;
+//   top: -70px;
+//   left: 870px;
+//   width: 300px;
+//   height: 200px;
+//   font-family: monospace;
+//   display: flex;
+//   flex-direction: column;
+//   line-height: 4px;
+//   label {
+//     position: relative;
+//     left: -50px;
+//   }
+//   input {
+//     position: relative;
+//     left: 50px;
+//   }
+// }
+// #placeL{
+//     position: relative;
+//     left: -130px;
+//     top: 20px;
+//     color: rgb(62, 211, 32);
+// }
+// #schL{
+
+//     position: relative;
+//     left: -130px;
+//     top: 20px;
+//     color: rgb(62, 211, 32);
+
+// }
+// #nameL{
+//     position: relative;
+//     left: -130px;
+//     color: rgb(62, 211, 32);
+
+//     top:20px ;
+// }
+// #namelL{
+//     position: relative;
+//     left: -130px;
+//     top:20px ;
+//     color: rgb(62, 211, 32);
+
+// }
+// #stanL{
+//     position: relative;
+//     left: -130px;
+//     top:20px ;
+//     color: rgb(62, 211, 32);
+
+// }
+// #mailL{
+//     position: relative;
+//     left: -130px;
+//     top:20px ;
+//     color: rgb(62, 211, 32);
+
+
+// }
+// #phoneL{
+//     position: relative;
+//     left: -130px;
+//     top:20px ;
+//     color: rgb(62, 211, 32);
+
+
+// }
+// #selState{
+//     position: relative;
+//     left:  50px;
+// }
+// #drpSch{
+//     position: relative;
+//     left:  50px;
+
+// }
+*{
+  margin: 0px;
+  padding :0px;
+  box-sizing: border-box;
+
+}
+body{
+  background-color:cornsilk;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 768px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.flexbox .board{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  background-color: rgb(77, 220, 20);
+  padding: 15px;
+}
+
+.flexbox .board .card {
+  padding: 15px 25px;
+  background-color: rgb(214, 103, 155);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
