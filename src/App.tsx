@@ -1,13 +1,37 @@
 import React from "react";
-import Board from './components/Board';
-import Card from './components/Card';
-
+// import Board from './components/Board';
+// import Card from './components/Card';
+ import Calendar from '../src/components/Calendar'
 
 function App() {
+
+
+  
   return (
 
     <div className='App'>
-        <main className="flexbox">
+      
+<Calendar/>
+     
+
+
+
+
+{/* <Scheduler/> */}
+{/* <ViewState /> */}
+{/* </Scheduler> */}
+{/* <Scheduler>
+        <ViewState />
+        <EditingState  onCommitChanges={removeFunction} />
+        <IntegratedEditing />
+        <WeekView  />
+        <Appointments />
+        <AppointmentForm />
+      </Scheduler> */}
+       
+
+
+        {/* <main className="flexbox">
 
           <Board id='board-1' className='board'>
               <Card id='card-1' className='card' draggable='true'>
@@ -29,7 +53,7 @@ function App() {
 
           
 
-        </main>
+        </main> */}
 
 
     </div>
